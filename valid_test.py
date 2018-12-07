@@ -1,9 +1,12 @@
 # tests for valid.py
 from valid import valid
 
-print("T:",valid('1209972979'))
+print("T:", valid('1209972979'))
+print("F:", valid('1209972977'))
+print("F:", valid('1209972975'))
 
-# test for checksum for 1209972979:
+
+# test for c for 1209972979:
 # print("(1) 3xD1: 1*3: 3:", (3*int(digits[0:1])))
 # print("(2) 2xD2: 2*2: 4:", (2*int(digits[1:2])))
 # print("(0) 7xM1: 7*0: 0:", (7*int(digits[2:3])))
